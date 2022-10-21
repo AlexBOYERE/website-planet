@@ -3,11 +3,15 @@ nav {
     height: 10vh;
     width: 100%;
     position: fixed;
+    display: flex;
+    align-items: center;
+    box-shadow: 0, 5px, 5px black, 0, 1px, 2px black;
 }
 
 nav ul li {
     list-style:none;
     display: inline-block;
+    margin-right: 3vh;
 }
 
 nav ul li a{
@@ -19,26 +23,27 @@ header {
     width: 100%;
 }
 
-header .planet-earth {
+body .planet-earth {
     background-color: aqua;
     opacity: 80%;
+    width: 20%;
 }
 
-header .planet-sun {
+body .planet-sun {
     background-color: yellowgreen;
     opacity: 80%;
 }
 
-header .planet-pluto {
+body .planet-pluto {
     background-color: burlywood;
     opacity: 80%;
 }
 
-header .planet-title, .planet-text {
+body .planet-title, .planet-text {
     text-align: center;
 }
 
-header .planet-img {
-    width: 10%;
-    height: 10%;
+body .planet-img {
+    background-color: aquamarine;
 }
+
