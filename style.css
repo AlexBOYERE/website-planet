@@ -1,0 +1,44 @@
+nav {
+    background: #fff;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+}
+
+nav ul li {
+    list-style:none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: red;
+}
+
+header {
+    width: 100%;
+}
+
+header .planet-earth {
+    background-color: aqua;
+    opacity: 80%;
+}
+
+header .planet-sun {
+    background-color: yellowgreen;
+    opacity: 80%;
+}
+
+header .planet-pluto {
+    background-color: burlywood;
+    opacity: 80%;
+}
+
+header .planet-title, .planet-text {
+    text-align: center;
+}
+
+header .planet-img {
+    width: 10%;
+    height: 10%;
+}
